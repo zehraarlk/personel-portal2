@@ -1,0 +1,28 @@
+.site-footer {
+  background: #022842;
+  color: rgba(255, 255, 255, 0.88);
+  margin-top: auto;
+}
+
+.footer-inner {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-inner p {
+  margin: 0.4rem 0 0;
+  opacity: 0.75;
+  max-width: 36ch;
+  line-height: 1.5;
+}
+
+.footer-copy {
+  align-self: flex-end;
+  font-size: 0.9rem;
+}
