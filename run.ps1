@@ -7,12 +7,16 @@ Write-Host " Gebze Personel Portali baslatiliyor..." -ForegroundColor Cyan
 Write-Host ""
 
 if (-not (Test-Path (Join-Path $Root "backend\venv\Scripts\python.exe"))) {
-    Write-Host "[!] Backend venv bulunamadi. Once kurulum yapin." -ForegroundColor Red
+    Write-Host "[!] Backend venv bulunamadi." -ForegroundColor Red
+    Write-Host "    Kurulum icin: .\setup.ps1" -ForegroundColor Yellow
+    Write-Host "    Teshis icin:  .\kontrol.ps1" -ForegroundColor Yellow
     exit 1
 }
 
 if (-not (Test-Path (Join-Path $Root "frontend\node_modules"))) {
-    Write-Host "[!] Frontend bagimliliklari yok. Once: cd frontend; npm install" -ForegroundColor Red
+    Write-Host "[!] Frontend bagimliliklari yok." -ForegroundColor Red
+    Write-Host "    Kurulum icin: .\setup.ps1" -ForegroundColor Yellow
+    Write-Host "    veya: cd frontend; npm install" -ForegroundColor Yellow
     exit 1
 }
 

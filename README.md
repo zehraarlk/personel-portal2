@@ -2,7 +2,20 @@
 
 Django API + React arayüzü. Veritabanı: phpMyAdmin’deki mevcut **personel_db**.
 
-**Yeni başlayanlar için:** [BASLANGIC.md](./BASLANGIC.md) — hangi kodu nereye yazacağınız burada.
+| Rehber | İçerik |
+|--------|--------|
+| **[KURULUM.md](./KURULUM.md)** | Sıfırdan kurulum, XAMPP, hata çözümleri |
+| **[BASLANGIC.md](./BASLANGIC.md)** | Hangi kodu nereye yazmalıyım? |
+
+## Hızlı başlangıç
+
+```powershell
+.\setup.ps1      # ilk kurulum
+.\kontrol.ps1    # hata teşhisi
+.\run.ps1        # çalıştır
+```
+
+Çift tık: `setup.bat` · `kontrol.bat`
 
 ## Klasör yapısı
 

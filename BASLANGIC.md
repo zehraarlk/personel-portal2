@@ -1,5 +1,8 @@
 # Başlangıç rehberi — Kodu nereye yazmalıyım?
 
+> **İlk kez kuruyorsanız:** Önce [KURULUM.md](./KURULUM.md) dosyasını okuyun.  
+> Hata alırsanız: `kontrol.bat` veya `.\kontrol.ps1`
+
 React (ön yüz) ve Django (arka uç) ayrı klasörlerdedir. Aşağıdaki tablo günlük geliştirme için yeterlidir.
 
 ## Proje ağacı (sade)
